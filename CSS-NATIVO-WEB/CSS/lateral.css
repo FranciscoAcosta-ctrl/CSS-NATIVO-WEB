@@ -1,0 +1,219 @@
+@import url(fonts-face.css);
+
+.lateral{
+    width: 300px;
+    min-height: 1200px;
+    font-family: "TrebucheMs";
+    float: right;
+    margin-top: 50px;
+}
+
+.lateral h3{
+    font-size: 30px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: url(../img/pxgray.png), white;
+    display: block;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    box-shadow: 0px 1px 0px #393d3f,1px 2px 0px #393d3f,2px 3px 0px #393d3f;
+}
+.lateral .buscar{
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 1px solid #ccc;
+    box-shadow: 1px 1px 4px #ccc inset;
+    border-radius: 5px;
+}
+.lateral .buscar input[type="text"]{
+    width: 90%;
+    height: 25px;
+    border: none;
+    padding-left: 1px;
+    border-radius: 5px;
+    background-color:  transparent;
+    color: #ccc;
+    float: left;
+    transition: all 300ms;
+
+}
+.lateral .buscar input[type="text"]:focus{
+    color: #555;
+}
+.lateral .buscar input[type="button"]{
+    height: 30px;
+    width: 9%;
+    background-image: url(../img/buscar.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+
+.lateral .login{
+    width: 90%;
+    height: 220px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 1px solid #ccc;
+    box-shadow: 1px 1px 8px #ccc ;
+    border-radius: 5px;
+}
+.lateral .login .user , .password{
+    display: block;
+    margin-left: 10px;
+    padding-top: 10px ;
+    margin-bottom: 4px;
+    font-family: "TrebucheMs";
+    font-size: 15px;
+}
+
+.lateral .login input[type="email"],input[type="password"]{
+    display: block;
+    margin-left: 10px;
+    width: 80%;
+    height: 20px;
+    color: #ccc;
+    border: 1px solid #ccc;
+} 
+.lateral .login input[type="email"]:focus,input[type="password"]:focus{
+    border: 1px solid #B30406;
+    color: #555;
+}
+.lateral .login input[type="submit"],input[type="reset"] {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: solid 1px #B30406;
+    background: linear-gradient(to bottom,#F50509 0%,#F50509 50%,  #B30406 100%);
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.lateral .login input[type="submit"]:hover,input[type="reset"]:hover{
+    background: #fff;
+    color: #F50509;
+}
+.lateral .login a{
+    display: inline-block;
+    color: #B30406;
+    font-family: "TrebucheMs";
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.lateral .login a:last-child{
+    padding-top: 0px;
+}
+
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+
+.lateral .social{
+    width: 70%;
+    height: 210px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 1px solid #ccc;
+    box-shadow: 1px 1px 8px #ccc ;
+    border-radius: 5px;
+    
+}
+.lateral .social a{
+    margin: 10px auto;
+    width: 80%;
+}
+.lateral .social a:hover p{
+    opacity: 1;
+    transform: translateX(80px);
+}
+
+.lateral .social a p{
+    margin-top: -30px;
+    opacity: 0;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    transition: all 400ms linear;
+    
+}
+.lateral .social img{
+    float: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+/***************************************/
+/***************************************/
+/***************************************/
+/***************************************/
+
+.lateral .patrocinadores{
+    width: 70%;
+    height: 170px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 1px solid #ccc;
+    box-shadow: 1px 1px 8px #ccc ;
+    border-radius: 5px;
+    
+    
+}
+.lateral .patrocinadores ul{
+    text-decoration: none;
+    list-style: none;
+}
+.lateral .patrocinadores ul li{
+    display: block;
+    float: left;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: 10px;
+    transition: all 300ms;
+}
+.lateral .patrocinadores .foto{
+    background-image: url(../img/github.png);
+    width: 32px;
+    height: 32px;
+    float: left;
+    transition: all 300ms;
+}
+.lateral .patrocinadores ul li h4{
+    margin-top: 8px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    letter-spacing: 1px;
+    transition: all 300ms;
+}
+
+.lateral .patrocinadores ul li:hover .foto{
+    background-image: url(../img/githubHover.png);
+}
+.lateral .patrocinadores ul li:hover{
+    cursor: pointer;
+}
+.lateral .patrocinadores ul li:hover h4{
+    color: #B30406;
+}

@@ -1,0 +1,80 @@
+@import url(fonts-face.css);
+
+.card .icon{
+    display: block;
+    width: 100px;
+    height: 90px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    transition: all 300ms linear;
+}
+.card:hover .icon{
+    width: 120px;
+    height: 110px;
+    animation: Top-Img 300ms linear;
+}
+.card .icon img{
+    width: 100%;
+    height: 100%;
+}
+.cards{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.card{
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden;
+    width: 200px;
+    height: 305px;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px #aaa; 
+    background: #111;
+}
+.card:first-child{
+    margin-left: 15px;
+}
+.card:last-child{
+    margin-right: 0px;
+}
+.card .categoria{
+   padding-top: 20px;
+   margin: 10px auto;
+   text-align: center;
+   font-family: "BebasNeue";
+   letter-spacing: 1px;
+   transition: all 300ms linear;
+}
+.card:hover .categoria{
+    color: #B30406;
+    padding-top: 0px;
+}
+.card .descripcion{
+    font-family: "TrebucheMs";
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 400ms linear;
+}
+.card:hover .descripcion{
+    color: rgb(213, 39, 39);
+}
+
+/* Animaciones */
+
+@keyframes Top-Img{
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}

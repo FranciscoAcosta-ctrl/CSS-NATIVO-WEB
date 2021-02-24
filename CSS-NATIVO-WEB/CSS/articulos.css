@@ -1,0 +1,66 @@
+@import url(fonts-face.css);
+
+.document{
+    float: left;
+    width: 850px;
+    display: block;
+    margin-left: 25px;
+    margin-top: 65px;
+}
+.document h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    background: url(../img/pxgray.png), white;
+    display: block;
+    width: auto;
+    height: 45px;
+    line-height: 50px;
+    box-shadow: 0px 1px 0px #393d3f,1px 2px 0px #393d3f,2px 3px 0px #393d3f;
+}
+
+.document .articulo{
+    background: #fff;
+    display: block;
+    width: 100%;
+    border: solid 1px #ccc;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.document .articulo h3{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    float: left;
+    color: #B30406;
+    font-family: "TrebucheMs";
+    font-weight: bold;
+}
+.document .articulo .fecha{
+    float: right;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-right: 15px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background: #393d3f;
+    line-height: 10px;
+    color: #fff;
+}
+.document .articulo .textInfo{
+    clear: both;
+    width: 95%;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.document .articulo a{
+    color: red;
+}
+

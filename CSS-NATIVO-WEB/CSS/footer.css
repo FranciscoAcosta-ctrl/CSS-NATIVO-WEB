@@ -1,0 +1,122 @@
+@import url(fonts-face.css);
+
+footer{
+    width: 100%;
+    height: 250px;
+    background: #000;
+    margin-top: -100px;
+}
+footer .menuFooter{
+    float: left;
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+}
+footer .menuFooter h2{
+    background: #ddd;
+    padding: 2px;
+    color:#222;
+    text-align: center;
+    font-family: "BebasNeue";
+}
+
+footer .menuFooter ul{
+    list-style: none;
+}
+footer .menuFooter ul li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: #ddd 1px solid;
+}
+footer .menuFooter ul li a{
+    font-size: 18px;
+    color: rgb(213, 39, 39);
+}
+/************************************************/
+/************************************************/
+/************************************************/
+.menuMap {
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 350px;
+    height: 190px;
+    float: left;
+}
+.menuMap iframe{
+    width: 100%;
+    height: 100%;
+}
+/************************************************/
+/************************************************/
+/************************************************/
+.autor{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-top: -80px;
+    padding-left: 100px;
+}
+.autor > h2{
+    background: #ddd;
+    padding: 2px;
+    color:#222;
+    text-align: center;
+    font-family: "BebasNeue";
+}
+.autor a{
+    display: block;
+    text-align: center;
+    cursor: auto;
+    
+}
+.autor a img{
+    margin: 20px auto;
+    border: solid 10px rgb(255, 13, 13);
+    box-shadow: 0px 0px 10px rgb(255, 13, 13);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.autor a img:hover{
+    animation: colors 5s linear infinite;
+    
+}
+
+@keyframes colors{
+    10%{
+        border: solid 10px rgb(255, 13, 13);
+        box-shadow: 0px 0px 10px rgb(255, 13, 13);
+    }
+    25%{
+        border: solid 10px rgb(242, 255, 4);
+        box-shadow: 0px 0px 10px rgb(242, 255, 4) ;
+    }
+    35%{
+        border: solid 10px rgb(52, 255, 2);
+        box-shadow: 0px 0px 10px rgb(52, 255, 2) ;
+    }
+    45%{
+        border: solid 10px rgb(0, 255, 208);
+        box-shadow: 0px 0px 10px rgb(0, 255, 208) ;
+    }
+    55%{
+        border: solid 10px rgb(0, 30, 255);
+        box-shadow: 0px 0px 10px rgb(0, 30, 255);
+    }
+    65%{
+        border: solid 10px rgb(98, 0, 255);
+        box-shadow: 0px 0px 10px rgb(98, 0, 255);
+    }
+    75%{
+        border: solid 10px rgb(255, 13, 255);
+        box-shadow: 0px 0px 10px rgb(255, 13, 255);
+    }
+    85%{
+        border: solid 10px rgb(255, 13, 154);
+        box-shadow: 0px 0px 10px rgb(255, 13, 154);
+    }
+    100%{
+        border: solid 10px rgb(255, 13, 13);
+        box-shadow: 0px 0px 10px rgb(255, 13, 13);
+    }
+}

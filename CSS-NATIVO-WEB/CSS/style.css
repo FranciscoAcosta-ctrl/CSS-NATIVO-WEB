@@ -1,0 +1,27 @@
+@import url(fonts-face.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(cards.css);
+@import url(lateral.css);
+@import url(articulos.css);
+@import url(footer.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/pattern.png);
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
